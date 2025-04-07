@@ -4,15 +4,12 @@
 
 <!-- Device Trees -->
 <project name="Johnkarazou/android_device_xiaomi_redwood" path="device/xiaomi/redwood" remote="github" revision="15.0" />
-<project name="Johnkarazou/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="15.0" />
-<project name="Johnkarazou/Vendor_Redwood" path="vendor/xiaomi/redwood" remote="github" revision="main" />
-<project name="Johnkarazou/proprietary_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" remote="github" revision="lineage-22.1" />
-
-<!-- Device Kernel -->
-<project name="Johnkarazou/scarlet_xiaomi_sm7325" path="kernel/xiaomi/scarlet" remote="github" revision="redwood" />
-<!--<project name="Johnkarazou/android_kernel_xiaomi_sm8350" path="/kernel/xiaomi/redwood" remote="github" revision="redwood" /> -->
+<project name="Johnkarazou/proprietary_vendor_xiaomi_redwood" path="vendor/xiaomi/redwood" remote="github" revision="15.0" />
+<project name="Johnkarazou/vendor_xiaomi_redwood-miuicamera" path="vendor/xiaomi/redwood-miuicamera" remote="github" revision="fifteen-qpr2" />
+<!-- Device Prebuilt Kernel -->
+<project name="Johnkarazou/android_kernel_xiaomi_redwood" path="device/xiaomi/redwood-kernel" remote="github" revision="15.0-stock" />
 <!-- Device Hardware -->
-<project name="Johnkarazou/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.1" />
+<project name="Johnkarazou/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="fifteen-qpr2" />
 
 </manifest>
 
