@@ -5,11 +5,11 @@
 <!-- Device Trees -->
 <project name="Johnkarazou/android_device_xiaomi_redwood" path="device/xiaomi/redwood" remote="github" revision="15.0" />
 <project name="Johnkarazou/proprietary_vendor_xiaomi_redwood" path="vendor/xiaomi/redwood" remote="github" revision="15.0" />
-<project name="Johnkarazou/vendor_xiaomi_redwood-miuicamera" path="vendor/xiaomi/redwood-miuicamera" remote="github" revision="fifteen-qpr2" />
+<project name="Johnkarazou/proprietary_vendor_xiaomi_redwood" path="vendor/xiaomi/redwood-miuicamera" remote="github" revision="15.0-miuicamera" />
 <!-- Device Prebuilt Kernel -->
 <project name="Johnkarazou/android_kernel_xiaomi_redwood" path="device/xiaomi/redwood-kernel" remote="github" revision="15.0" />
 <!-- Device Hardware -->
-<project name="Johnkarazou/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="fifteen-qpr2" />
+<project name="Johnkarazou/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="15.0-redwood" />
 
 </manifest>
 
